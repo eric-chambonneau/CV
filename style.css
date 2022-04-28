@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Audiowide&family=Dancing+Script&family=Josefin+Sans:wght@100&family=Rambla&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    color: bisque;
+    background-color: blue;
+    font-family: 'Rambla' , sans-serif;
+}
+
+h2, h3 {
+    font-family: 'audiowide', sans-serif;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-shadow: -1px -1px 1px blueviolet;
+}
+
+li {
+    list-style-type: none;
+}
+/***************************  header  ***********************/
+.navbar {
+    background-color: aliceblue;
+    opacity: 0.9;
+    height: 42px;
+    transition: 0.7s;
+}
+
+.navbar-nav {
+    width: 80% !important;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.header {
+    text-align: center;
+    height: 100vh;
+    background: url(media/header.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+}
+h1 {
+    padding: 90px 0 10px 0;
+    font-family: 'Josefin' , sans-serif;
+    font-size: 4.3em;
+    text-transform: uppercase;
+}
+
+#line {
+    height: 1px;
+    background-color: chocolate;
+    width: 25%;
+    margin: 0 auto;
+}
+h2 {
+    padding: 20px 0 50px 0;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+.presentation
